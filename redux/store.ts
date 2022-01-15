@@ -1,4 +1,3 @@
-import { useMemo } from "react"
 import {
 	applyMiddleware,
 	compose,
@@ -22,6 +21,6 @@ const configureStore = () => {
 	return createStore(rootReducer, composeEnhancers)
 }
 
-const store: Store = configureStore()
+const store = configureStore()
 
 export default store
