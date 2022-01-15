@@ -1,1 +1,3 @@
-# next-redux-dapp-template
+# Next JS dApp Template
+
+For multi page dApp use
