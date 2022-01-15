@@ -33,7 +33,8 @@ yarn-error.log*
 
 #Hardhat files
 /cache
-/artifacts
+/artifacts/@openzeppelin
+/artifacts/build-info
 
 # vercel
 .vercel
