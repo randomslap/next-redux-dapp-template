@@ -3,7 +3,7 @@ import { ethers } from "ethers"
 import { fetchData } from "../data/dataActions"
 import contract from "../../artifacts/contracts/Sample.sol/Sample.json"
 
-const address: string = `${process.env.REACT_APP_CONTRACT_ADDRESS}`
+const address: string = `${process.env.CONTRACT_ADDRESS}`
 
 declare global {
 	interface Window {
